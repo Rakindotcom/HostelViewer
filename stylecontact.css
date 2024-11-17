@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #E7DECC;
+    width: 100%;
+    height: 14vh;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.logo img {
+    height: 7vh;
+    min-height: 50px;
+}
+
+.nav ol {
+    display: flex;
+    gap: 30px;
+    justify-content: start;
+    align-self: flex-end;
+    
+}
+
+ol li {
+    list-style: none;
+    white-space: nowrap;
+    
+}
+
+ol li a {
+    text-decoration: none;
+    color: #006C6D;
+    font-weight: 600;
+}
+
+ol li a:hover {
+    text-decoration: underline;
+    color: maroon;
+}
+
+main {
+    background-color: #165B65;
+    display: flex;
+    height: 69vh;
+}
+
+.contact {
+    width: 40%;
+    color: white;
+}
+
+h1 {
+    font-size: 2.9rem;
+    
+    color: rgb(211, 208, 50);
+    text-align: center;
+}
+.contact{
+    width: fit-content;
+    margin: auto;
+}
+.contact img {
+    width: 1.2em;
+}
+.socials{
+    width: fit-content;
+    margin: auto;
+}
+.socials a{
+    padding: 7px;
+    
+}
+.socials img {
+    width: 3.5em;
+}
+.c{
+    width: fit-content;
+    margin: auto;
+    margin: 25px 0;
+    font-size: 0.9em;
+}
+.c p{
+    padding: 5px 0px;
+}
+.p{
+    width: fit-content;
+    margin: auto;
+    padding: 10px 0px;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.form {
+    width: 45%;
+    background-color: white;
+    height: 50vh;
+    min-height: fit-content;
+    margin: auto;
+    border: 1.5px solid black;
+    border-radius: 15px;
+    padding: 20px;
+}
+input{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+input::placeholder{
+    font-size: 0.9em;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    background-color: #02262F;
+    width: 100%;
+    height: 17vh;
+    min-height: 60px;
+    color: white;
+}
