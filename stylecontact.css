@@ -31,13 +31,13 @@ header {
     gap: 30px;
     justify-content: start;
     align-self: flex-end;
-    
+
 }
 
 ol li {
     list-style: none;
     white-space: nowrap;
-    
+
 }
 
 ol li a {
@@ -64,38 +64,46 @@ main {
 
 h1 {
     font-size: 2.9rem;
-    
+
     color: rgb(211, 208, 50);
     text-align: center;
 }
-.contact{
+
+.contact {
     width: fit-content;
     margin: auto;
 }
+
 .contact img {
     width: 1.2em;
 }
-.socials{
+
+.socials {
     width: fit-content;
     margin: auto;
 }
-.socials a{
+
+.socials a {
     padding: 7px;
-    
+
 }
+
 .socials img {
     width: 3.5em;
 }
-.c{
+
+.c {
     width: fit-content;
     margin: auto;
     margin: 25px 0;
     font-size: 0.9em;
 }
-.c p{
+
+.c p {
     padding: 5px 0px;
 }
-.p{
+
+.p {
     width: fit-content;
     margin: auto;
     padding: 10px 0px;
@@ -113,7 +121,8 @@ h1 {
     border-radius: 15px;
     padding: 20px;
 }
-input{
+
+input {
     width: 100%;
     height: 40px;
     padding: 10px;
@@ -121,15 +130,77 @@ input{
     border-radius: 5px;
     border: 1px solid black;
 }
-input::placeholder{
+
+input::placeholder,
+textarea::placeholder {
     font-size: 0.9em;
     font-family: 'Poppins', sans-serif;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid black;
+    resize: none;
+}
+
+button{
+    width: 20%;
+    height: 30px;
+    background: linear-gradient(to left, #006C6D, #02262F);
+    color: linen;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 footer {
     background-color: #02262F;
     width: 100%;
-    height: 17vh;
+    height: fit-content;
     min-height: 60px;
     color: white;
+    text-align: center;
+}
+
+.footer {
+    margin: auto;
+    width: 80%;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li {
+    list-style: none;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+footer h2 {
+    font-size: 1.9em;
+    padding-top: 20px;
+}
+
+footer a {
+    font-size: small;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+footer p {
+    margin: 10px 0;
+    color: #569790;
+}
+
+footer a:hover {
+    color: #569790;
+    cursor: pointer;
 }
